@@ -12,7 +12,6 @@ const typeDefs = gql`
     users: [User]
   }
 `
-
 const resolvers = {
   Query: {
     users: async () => {
